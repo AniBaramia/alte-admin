@@ -1,0 +1,6 @@
+<div class="menu-items" [routerLink]="item.url" *ngFor="let item of menuItems">
+  <div class="item">
+    <div><img [src]="item.img" /></div>
+    <div>{{ item.title }}</div>
+  </div>
+</div>

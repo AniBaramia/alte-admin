@@ -1,0 +1,46 @@
+.header2 {
+  padding: 12px 264px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 0.5px solid rgb(241, 238, 238);
+
+  .logo {
+    cursor: pointer;
+    img {
+      height: 64px;
+    }
+  }
+  .navbar {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    font-weight: bold;
+    color: #134147;
+    font-size: 16px;
+  }
+  .about,
+  .admission,
+  .studies,
+  .news,
+  .events,
+  .students-life,
+  .contact {
+    cursor: pointer;
+  }
+  .my-alte {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-weight: bold;
+    .get-informed {
+      padding: 8px 24px;
+      border: 1px solid #134147;
+      border-radius: 16px;
+      color: #134147;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
