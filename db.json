@@ -1,3 +1,181 @@
 {
-  "board": []
+  "board": [
+    {
+      "img": "https://i.ibb.co/bWHzXCs/170-untitled-1-02.jpg",
+      "name": "Ramaz Kukuladze",
+      "title": "President",
+      "id": 1
+    },
+    {
+      "img": "https://i.ibb.co/994vKK0/188-untitled-1-01.jpg",
+      "name": "Ani Amiranashvili",
+      "title": "Director of Marketing and PR Department",
+      "id": 2
+    },
+    {
+      "img": "https://i.ibb.co/Fg70hmV/94-untitled-1-03.jpg",
+      "name": "Tinatin Orvelashvili",
+      "title": "Director of HR & Students Success Department",
+      "id": 3
+    },
+    {
+      "img": "https://i.ibb.co/2dnB7rT/165-14-1.jpg",
+      "name": "Natia Nasrashvili",
+      "title": "Dean of the Business School",
+      "id": 4
+    },
+    {
+      "img": "https://i.ibb.co/PxJjgQv/163-samartali-55.jpg",
+      "name": "Ketevan Tskhadadze",
+      "title": "Dean of the School of Law",
+      "id": 5
+    },
+    {
+      "img": "https://i.ibb.co/q9gr5Q1/194-101-11-tanamshromlebi-12.jpg",
+      "name": "Giorgi Koberidze",
+      "title": "Acting Dean of the School of Humanities and Social Sciences",
+      "id": 6
+    },
+    {
+      "img": "https://i.ibb.co/MVx1xmS/60.png",
+      "name": "Nani Arabuli",
+      "title": "Dean of the IT School",
+      "id": 7
+    },
+    {
+      "img": "https://i.ibb.co/GxB4kZG/80-140-untitled-1-75.jpg",
+      "name": "Ketevan Chakhnashvili",
+      "title": "Dean of the International School of Medicine",
+      "id": 8
+    },
+    {
+      "img": "https://i.ibb.co/nMJLFn5/144-untitled-1-76.jpg",
+      "name": "Nana Dikhaminjia",
+      "title": "Director of the Digital Transformation Center",
+      "id": 9
+    }
+  ],
+  "adminStaff": [
+    {
+      "img": "https://i.ibb.co/SPXSD1g/142-tanamshromlebi-07.jpg",
+      "name": "Natuka Khurtsilava",
+      "title": "Head of Students Success Division",
+      "id": 1
+    },
+    {
+      "img": "https://i.ibb.co/VVN2cKk/2-untitled-1-91.jpg",
+      "name": "Irma Nozadze",
+      "title": "Head of Program Compliance Service",
+      "id": 2
+    },
+    {
+      "img": "https://i.ibb.co/LnkDfhV/16-giorgi-tushishvili.jpg",
+      "name": "Giorgi Tushishvili",
+      "title": "Head Of Financial Accounting and Reporting Division",
+      "id": 3
+    },
+    {
+      "img": "https://i.ibb.co/88TxFKj/138-untitled-1-110.jpg",
+      "name": "Nino Sikharulidze",
+      "title": "Head of student recruitment division",
+      "id": 4
+    },
+    {
+      "img": "https://i.ibb.co/N3j7H9N/88-untitled-1-77.jpg",
+      "name": "Tamar Lapiashvili",
+      "title": "Head of International Students’ Admission",
+      "id": 5
+    },
+    {
+      "img": "https://i.ibb.co/X4SRXHv/57-giorgi-siradze.jpg",
+      "name": "Giorgi Siradze",
+      "title": "Head of Logistics Division",
+      "id": 6
+    },
+    {
+      "img": "https://i.ibb.co/phJt8YL/196-tanamshromlebi-25.jpg",
+      "name": "Tamta Nikoladze",
+      "title": "PR Manager",
+      "id": 7
+    },
+    {
+      "img": "https://i.ibb.co/j6WJCQ8/45-112.jpg",
+      "name": "Elene Mamageishvili",
+      "title": "Senior Content Creator",
+      "id": 8
+    },
+    {
+      "img": "https://i.ibb.co/wJVsHBR/36-tanamshromlebi-17.jpg",
+      "name": "Mariam Tabatadze",
+      "title": "Communications Specialist",
+      "id": 9
+    },
+    {
+      "img": "https://i.ibb.co/2ZFkK5f/123-tanamshromlebi-09.jpg",
+      "name": "Sophia Nikolaishvili",
+      "title": "Student Services Manager",
+      "id": 10
+    },
+    {
+      "img": "https://i.ibb.co/5GrB0PN/46-untitled-1-109.jpg",
+      "name": "Khatia Matikoshvili",
+      "title": "Student Recruitment Manager",
+      "id": 11
+    },
+    {
+      "img": "https://i.ibb.co/tKvHFgf/4-untitled-1-113.jpg",
+      "name": "Mariam Khorava",
+      "title": "International Students Recruitment Manager",
+      "id": 12
+    },
+    {
+      "img": "https://i.ibb.co/Fg3GYhr/50-untitled-1-111.jpg",
+      "name": "Tatia Lomadze",
+      "title": "Chancellery Specialist",
+      "id": 13
+    },
+    {
+      "img": "https://i.ibb.co/FV064vb/161-untitled-1-92.jpg",
+      "name": "Salome Oniani",
+      "title": "Technology Software Development Coordinator",
+      "id": 14
+    },
+    {
+      "img": "https://i.ibb.co/qNKyBRg/135-nino-vefkhvadze.jpg",
+      "name": "Nino Vepkhvadze",
+      "title": "Financial Accounting Specialist",
+      "id": 15
+    },
+    {
+      "img": "https://i.ibb.co/DPdsv15/135-143-nana-chanturia.jpg",
+      "name": "Nana Chanturia",
+      "title": "Deputy Dean of Business School",
+      "id": 16
+    },
+    {
+      "img": "https://i.ibb.co/xm5YxVH/35-tanamshromlebi-10.jpg",
+      "name": "Ana Baramia",
+      "title": "Assistant to the President",
+      "id": 17
+    },
+    {
+      "img": "https://i.ibb.co/JRy2rPD/66-untitled-1-94.jpg",
+      "name": "Gela Giunashvili",
+      "title": "Software Support Specialist",
+      "id": 18
+    },
+    {
+      "img": "https://i.ibb.co/tcJyKnZ/9-shota-gochitashvili.jpg",
+      "name": "Shota Gochitashvili",
+      "title": "Graphic Designer",
+      "id": 19
+    },
+    {
+      "img": "https://i.ibb.co/qyG3JKS/25-untitled-1-93.jpg",
+      "name": "Zurab Gamrekelashvili",
+      "title": "IT specialist",
+      "id": 20
+    }
+  ],
+  "Partners": []
 }

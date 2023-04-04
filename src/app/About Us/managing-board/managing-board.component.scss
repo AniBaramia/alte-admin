@@ -11,6 +11,7 @@ button {
   padding: 48px 0px 80px;
   border: 1px solid #0e3d4b;
   box-shadow: 2px 2px 0px 0px #0e3d4b;
+  background-color: white;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -46,4 +47,26 @@ button {
       cursor: pointer;
     }
   }
+}
+
+.members-container {
+  text-align: center;
+  padding: 10px 0px;
+}
+table {
+  margin: auto;
+  width: 90%;
+}
+
+th {
+  margin-bottom: 50px;
+}
+img {
+  height: 70px;
+}
+.removebtn,
+.editbtn {
+  height: 20px;
+  cursor: pointer;
+  margin-left: 12px;
 }

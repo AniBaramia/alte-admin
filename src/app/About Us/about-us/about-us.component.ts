@@ -19,12 +19,17 @@ export class AboutUsComponent implements OnInit {
     },
     {
       title: 'Admin Staff',
-      url: '/managing-board',
+      url: '/admin-staff',
       img: 'https://i.ibb.co/sHzPPyW/1-12.png',
     },
     {
       title: 'Docs',
-      url: '/managing-board',
+      url: '/docs',
+      img: 'https://i.ibb.co/sHzPPyW/1-12.png',
+    },
+    {
+      title: 'Our Partners',
+      url: '/our-partners',
       img: 'https://i.ibb.co/sHzPPyW/1-12.png',
     },
   ]

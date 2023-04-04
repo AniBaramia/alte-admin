@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { AboutUsComponent } from './about-us/about-us.component';
-import { ManagingBoardComponent } from './managing-board/managing-board.component';
-import { AdminStaffComponent } from './admin-staff/admin-staff.component';
-import { DocsComponent } from './docs/docs.component';
+import { AboutUsComponent } from './About Us/about-us/about-us.component';
+import { ManagingBoardComponent } from './About Us/managing-board/managing-board.component';
+import { AdminStaffComponent } from './About Us/admin-staff/admin-staff.component';
+import { DocsComponent } from './About Us/docs/docs.component';
+import { OurPartnersComponent } from './About Us/our-partners/our-partners.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'managing-board', component: ManagingBoardComponent },
   { path: 'admin-staff', component: AdminStaffComponent },
   { path: 'docs', component: DocsComponent },
+  { path: 'our-partners', component: OurPartnersComponent },
 ];
 
 @NgModule({

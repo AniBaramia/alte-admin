@@ -1,0 +1,57 @@
+<div class="add" (click)="addOnClick()"><button>Add New Memeber</button></div>
+
+<form #popup="ngForm" *ngIf="popupVisibility">
+  <div class="container">
+    <div class="ttl">Add New Memeber</div>
+    <input
+      name="img"
+      type="text"
+      placeholder="Image Url"
+      [(ngModel)]="member.img"
+    />
+    <input
+      name="name"
+      type="text"
+      placeholder="Name"
+      [(ngModel)]="member.name"
+    />
+    <input
+      name="title"
+      type="text"
+      placeholder="title"
+      [(ngModel)]="member.title"
+    />
+    <div class="buttons">
+      <div class="cancel" (click)="cancelOnClick()">Cancel</div>
+      <div class="create" (click)="createOnClick(member)">Create</div>
+    </div>
+  </div>
+</form>
+
+<div class="members-container">
+  <table>
+    <thead>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Title</th>
+      <th>Edit</th>
+    </thead>
+    <tbody class="member" *ngFor="let member of members">
+      <td><img src="{{ member.img }}" /></td>
+      <td>{{ member.name }}</td>
+      <td>{{ member.title }}</td>
+      <td>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
+          class="removebtn"
+          (click)="removeOnClick(member.id)"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1160/1160515.png"
+          class="editbtn"
+          (click)="editOnClick(member)"
+        />
+      </td>
+    </tbody>
+  </table>
+</div>
