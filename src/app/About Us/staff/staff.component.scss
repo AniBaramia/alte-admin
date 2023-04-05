@@ -27,16 +27,19 @@ button {
     font-weight: bold;
     margin-bottom: 20px;
   }
-  input {
+  input,
+  select {
     width: 400px;
     padding: 8px 2px;
     border: none;
     border-bottom: 1px solid #0e3d4b;
     outline: none;
   }
+
   .buttons {
     display: flex;
     gap: 12px;
+    margin-top: 48px;
 
     .cancel,
     .create {

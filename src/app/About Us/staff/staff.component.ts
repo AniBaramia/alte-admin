@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Member } from '../../interfaces';
 import { Router } from '@angular/router';
+import { Member } from '../../interfaces';
 
 @Component({
-  selector: 'app-managing-board',
-  templateUrl: './managing-board.component.html',
-  styleUrls: ['./managing-board.component.scss'],
+  selector: 'app-staff',
+  templateUrl: './staff.component.html',
+  styleUrls: ['./staff.component.scss']
 })
-export class ManagingBoardComponent implements OnInit {
+export class StaffComponent implements OnInit {
   member: Member = {
     img: '',
     name: '',
@@ -37,14 +37,14 @@ export class ManagingBoardComponent implements OnInit {
   createOnClick(member: Member) {
     if (this.member.id == undefined) {
       this.httpClient
-        .post('http://localhost:3000/board', member)
+        .post('http://localhost:3000/staff', member)
         .subscribe(() => {
           this.getAllMembers();
           this.popupVisibility = false;
         });
     } else {
       this.httpClient
-        .put('http://localhost:3000/board/' + member.id, member)
+        .put('http://localhost:3000/staff/' + member.id, member)
         .subscribe(() => {
           this.getAllMembers();
           this.popupVisibility = false;
@@ -53,14 +53,14 @@ export class ManagingBoardComponent implements OnInit {
   }
 
   getAllMembers() {
-    this.httpClient.get('http://localhost:3000/board').subscribe((response) => {
+    this.httpClient.get('http://localhost:3000/staff').subscribe((response) => {
       this.members = response;
     });
   }
 
   removeOnClick(id: number) {
     this.httpClient
-      .delete('http://localhost:3000/board/' + id)
+      .delete('http://localhost:3000/staff/' + id)
       .subscribe(() => {
         this.getAllMembers();
       });
@@ -69,4 +69,5 @@ export class ManagingBoardComponent implements OnInit {
     this.popupVisibility = true;
     this.member = { ...member };
   }
+
 }

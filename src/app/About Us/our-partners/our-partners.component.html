@@ -1,1 +1,55 @@
-<p>our-partners works!</p>
+<div class="add" (click)="addOnClick()"><button>Add New Partner</button></div>
+
+<form #popup="ngForm" *ngIf="popupVisibility">
+  <div class="container">
+    <div class="ttl">Add New Partner</div>
+    <input
+      name="img"
+      type="text"
+      placeholder="Image Url"
+      [(ngModel)]="partner.img"
+    />
+    <input
+      name="name"
+      type="text"
+      placeholder="Name"
+      [(ngModel)]="partner.name"
+    />
+    <select name="staff" [(ngModel)]="partner.type">
+      <option value="university">University</option>
+      <option value="organization">Organization</option>
+    </select>
+    <div class="buttons">
+      <div class="cancel" (click)="cancelOnClick()">Cancel</div>
+      <div class="create" (click)="createOnClick(partner)">Create</div>
+    </div>
+  </div>
+</form>
+
+<div class="members-container">
+  <table>
+    <thead>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Edit</th>
+    </thead>
+    <tbody class="member" *ngFor="let partner of partners">
+      <td><img src="{{ partner.img }}" /></td>
+      <td>{{ partner.name }}</td>
+      <td>{{ partner.type }}</td>
+      <td>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
+          class="removebtn"
+          (click)="removeOnClick(partner.id!)"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1160/1160515.png"
+          class="editbtn"
+          (click)="editOnClick(partner)"
+        />
+      </td>
+    </tbody>
+  </table>
+</div>

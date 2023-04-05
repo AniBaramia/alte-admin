@@ -21,6 +21,10 @@
       placeholder="title"
       [(ngModel)]="member.title"
     />
+    <select name="staff" [(ngModel)]="member.type">
+      <option value="management">Management</option>
+      <option value="administrative-staff">Administrative Staff</option>
+    </select>
     <div class="buttons">
       <div class="cancel" (click)="cancelOnClick()">Cancel</div>
       <div class="create" (click)="createOnClick(member)">Create</div>
@@ -34,12 +38,14 @@
       <th>Image</th>
       <th>Name</th>
       <th>Title</th>
+      <th>Type</th>
       <th>Edit</th>
     </thead>
     <tbody class="member" *ngFor="let member of members">
       <td><img src="{{ member.img }}" /></td>
       <td>{{ member.name }}</td>
       <td>{{ member.title }}</td>
+      <td>{{ member.type }}</td>
       <td>
         <img
           src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
@@ -55,4 +61,3 @@
     </tbody>
   </table>
 </div>
-

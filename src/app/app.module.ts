@@ -8,14 +8,13 @@ import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { AboutUsComponent } from './About Us/about-us/about-us.component';
-import { ManagingBoardComponent } from './About Us/managing-board/managing-board.component';
-import { AdminStaffComponent } from './About Us/admin-staff/admin-staff.component';
 import { DocsComponent } from './About Us/docs/docs.component';
 import { HttpClientModule } from '@angular/common/http';
 import { OurPartnersComponent } from './About Us/our-partners/our-partners.component';
+import { StaffComponent } from './About Us/staff/staff.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, AboutUsComponent, ManagingBoardComponent, AdminStaffComponent, DocsComponent, OurPartnersComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, AboutUsComponent, DocsComponent, OurPartnersComponent, StaffComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, RouterModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
