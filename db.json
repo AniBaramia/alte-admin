@@ -312,6 +312,162 @@
       "name": "Mykolas Romeris University",
       "type": "university",
       "id": 18
+    },
+    {
+      "img": "https://i.ibb.co/ftBVXqq/1.png",
+      "name": "Women's Empowerment Principles ",
+      "type": "organization",
+      "id": 19
+    },
+    {
+      "img": "https://i.ibb.co/gDpVNnx/2.png",
+      "name": "Liberty Bank",
+      "type": "organization",
+      "id": 20
+    },
+    {
+      "img": "https://i.ibb.co/4YMpTKW/3.jpg",
+      "name": "Georgian National Tourism Administration",
+      "type": "organization",
+      "id": 21
+    },
+    {
+      "name": "National Food Agency",
+      "img": "https://i.ibb.co/dcynVYP/4.jpg",
+      "type": "organization",
+      "id": 22
+    },
+    {
+      "img": "https://i.ibb.co/HgWG1bw/5.png",
+      "name": "Internship in Public Structures",
+      "type": "organization",
+      "id": 23
+    },
+    {
+      "name": "Rural Development Agency",
+      "img": "https://i.ibb.co/ZGMSMxk/6.jpg",
+      "type": "organization",
+      "id": 24
+    },
+    {
+      "img": "https://i.ibb.co/zHsqbz9/7.png",
+      "name": "Office of the State Minister",
+      "type": "organization",
+      "id": 25
+    },
+    {
+      "name": "Public Defender of Georgia",
+      "img": "https://i.ibb.co/71YQWS6/8.png",
+      "type": "organization",
+      "id": 26
+    },
+    {
+      "img": "https://i.ibb.co/7YZ6TkG/9.jpg",
+      "name": "Special Penitentiary Service",
+      "type": "organization",
+      "id": 27
+    },
+    {
+      "name": "Rustavi 2",
+      "img": "https://i.ibb.co/5k6Tbx1/10.png",
+      "type": "organization",
+      "id": 28
+    },
+    {
+      "name": "The National Parlamentary Library of Georgia",
+      "img": "https://i.ibb.co/3cLjLBz/11.jpg",
+      "type": "organization",
+      "id": 29
+    },
+    {
+      "img": "https://i.ibb.co/XY9LSFK/114.jpg",
+      "name": "Obiective",
+      "type": "organization",
+      "id": 30
+    },
+    {
+      "name": "Prosecutor's Office of Georgia",
+      "img": "https://i.ibb.co/d5xb68H/17f323c5-didipng.png",
+      "type": "organization",
+      "id": 31
+    },
+    {
+      "name": "Notary Chamber of Georgia",
+      "img": "https://i.ibb.co/jRwyGK4/1.jpg",
+      "type": "organization",
+      "id": 32
+    },
+    {
+      "img": "https://i.ibb.co/dfqBGyv/2.png",
+      "name": "Nodia, Urumashvili & Partners",
+      "type": "organization",
+      "id": 33
+    },
+    {
+      "img": "https://i.ibb.co/Xk24DCw/3.png",
+      "name": "Ministry of Internal Affairs",
+      "type": "organization",
+      "id": 34
+    },
+    {
+      "name": "Tbilisi City Hal",
+      "img": "https://i.ibb.co/whjLLfm/4.jpg",
+      "type": "organization",
+      "id": 35
+    },
+    {
+      "name": "National and Corporate Security Training and Research Center",
+      "img": "https://i.ibb.co/VqnSHM0/5.jpg",
+      "type": "organization",
+      "id": 36
+    },
+    {
+      "name": "Goodwill",
+      "img": "https://i.ibb.co/V3kkgn8/6.png",
+      "type": "organization",
+      "id": 37
+    },
+    {
+      "name": "Ministry of Finance of Georgia",
+      "img": "https://i.ibb.co/VD1MK8D/7.png",
+      "type": "organization",
+      "id": 38
+    },
+    {
+      "name": "Degusto",
+      "img": "https://i.ibb.co/vx9NsF5/8.png",
+      "type": "organization",
+      "id": 39
+    },
+    {
+      "name": "HR hub",
+      "img": "https://i.ibb.co/Yp5qwsC/9.png",
+      "type": "organization",
+      "id": 40
+    },
+    {
+      "name": "Bank of Georgia",
+      "img": "https://i.ibb.co/qs2c44T/5a71c767da79b.jpg",
+      "type": "organization",
+      "id": 41
+    },
+    {
+      "name": "Ministry of Justice of Georgia / National Bureau of Enforcement",
+      "img": "https://i.ibb.co/cb3ZvfQ/logo-portal.png",
+      "type": "organization",
+      "id": 42
+    },
+    {
+      "name": "Georgian Bar Association",
+      "img": "https://i.ibb.co/JcYVM6D/14.png",
+      "type": "organization",
+      "id": 43
+    },
+    {
+      "name": "2 Nabiji",
+      "img": "https://i.ibb.co/W6wyvWV/15.jpg",
+      "type": "organization",
+      "id": 44
     }
   ]
 }
