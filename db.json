@@ -209,265 +209,309 @@
       "img": "https://i.ibb.co/s6DyMWy/1.jpg",
       "name": "Summy State University",
       "type": "university",
-      "id": 1
+      "id": 1,
+      "website": "https://int.sumdu.edu.ua/en/"
     },
     {
       "img": "https://i.ibb.co/Kr3SGks/2.png",
       "name": "Notheastern University",
       "type": "university",
-      "id": 2
+      "id": 2,
+      "website": "https://www.northeastern.edu/"
     },
     {
       "img": "https://i.ibb.co/khzbC17/3.png",
       "name": "Bharath Institute of Higher Education and Research",
       "type": "university",
-      "id": 3
+      "id": 3,
+      "website": "https://www.bharathuniv.ac.in/index.php"
     },
     {
       "img": "https://i.ibb.co/Bj3zT1t/4.png",
       "name": "The University College of Tourism and Ecology",
       "type": "university",
-      "id": 4
+      "id": 4,
+      "website": "https://wste.edu.pl/en/"
     },
     {
       "img": "https://i.ibb.co/VvBvtBh/5.png",
       "name": "Uniwersytet Warmińsko-Mazurski w Olsztynie",
       "type": "university",
-      "id": 5
+      "id": 5,
+      "website": "https://uwm.edu.pl/"
     },
     {
       "img": "https://i.ibb.co/n7wpTtB/5.png",
       "name": "University of Warsaw",
       "type": "university",
-      "id": 6
+      "id": 6,
+      "website": "https://en.uw.edu.pl/"
     },
     {
       "img": "https://i.ibb.co/yVfSYgR/7.png",
       "name": "Tallin University",
       "type": "university",
-      "id": 7
+      "id": 7,
+      "website": "https://taltech.ee/en"
     },
     {
       "img": "https://i.ibb.co/tCcTrFK/8.png",
       "name": "Akademia Pomorska w Słupsku",
       "type": "university",
-      "id": 8
+      "id": 8,
+      "website": "https://www.apsl.edu.pl/"
     },
     {
       "img": "https://i.ibb.co/89Q0yG3/9.jpg",
       "name": "Lodz University of Technology",
       "type": "university",
-      "id": 9
+      "id": 9,
+      "website": "https://www.uni.lodz.pl/en/mobility"
     },
     {
       "img": "https://i.ibb.co/JkyjgMJ/10.png",
       "name": "Philipps-Universität Marburg",
       "type": "university",
-      "id": 10
+      "id": 10,
+      "website": "https://www.uni-marburg.de/de"
     },
     {
       "img": "https://i.ibb.co/cg089v1/11.jpg",
       "name": "University of Nicosia",
       "type": "university",
-      "id": 11
+      "id": 11,
+      "website": "https://www.unic.ac.cy/"
     },
     {
       "img": "https://i.ibb.co/qN8WKfH/12.png",
       "name": "New Jersey City University",
       "type": "university",
-      "id": 12
+      "id": 12,
+      "website": "https://www.njcu.edu/"
     },
     {
       "img": "https://i.ibb.co/xDNbT8T/15.png",
       "name": "Europa Kolleg Hamburg Institute for Europian Integration",
       "type": "university",
-      "id": 13
+      "id": 13,
+      "website": "https://europa-kolleg-hamburg.de/en/"
     },
     {
       "name": "Lanzhou University",
       "img": "https://i.ibb.co/MhccbVn/14.jpg",
       "type": "university",
-      "id": 14
+      "id": 14,
+      "website": "https://www.lzu.edu.cn/"
     },
     {
       "img": "https://i.ibb.co/Mp0qqWZ/16.png",
       "name": "Confucius Institute",
       "type": "university",
-      "id": 15
+      "id": 15,
+      "website": "https://www.confuciusinstitute.ac.uk/"
     },
     {
       "name": "Diggendorf Institute of Technology",
       "img": "https://i.ibb.co/WV9j1nc/17.png",
       "type": "university",
-      "id": 16
+      "id": 16,
+      "website": "https://www.th-deg.de/en"
     },
     {
       "img": "https://i.ibb.co/bmG0y7W/18.png",
       "id": 17,
       "name": "Azərbaycan Texniki Universiteti (Beta)",
-      "type": "university"
+      "type": "university",
+      "website": "https://www.aztu.edu.az/az#/azp/main.do"
     },
     {
       "img": "https://i.ibb.co/25r4732/mru.png",
       "name": "Mykolas Romeris University",
       "type": "university",
-      "id": 18
+      "id": 18,
+      "website": "https://www.mruni.eu/en/"
     },
     {
       "img": "https://i.ibb.co/ftBVXqq/1.png",
       "name": "Women's Empowerment Principles ",
       "type": "organization",
-      "id": 19
+      "id": 19,
+      "website": "https://www.weps.org/"
     },
     {
       "img": "https://i.ibb.co/gDpVNnx/2.png",
       "name": "Liberty Bank",
       "type": "organization",
-      "id": 20
+      "id": 20,
+      "website": "https://libertybank.ge/ka/"
     },
     {
       "img": "https://i.ibb.co/4YMpTKW/3.jpg",
       "name": "Georgian National Tourism Administration",
       "type": "organization",
-      "id": 21
+      "id": 21,
+      "website": "https://gnta.ge/ge/"
     },
     {
       "name": "National Food Agency",
       "img": "https://i.ibb.co/dcynVYP/4.jpg",
       "type": "organization",
-      "id": 22
+      "id": 22,
+      "website": "https://nfa.gov.ge/"
     },
     {
       "img": "https://i.ibb.co/HgWG1bw/5.png",
       "name": "Internship in Public Structures",
       "type": "organization",
-      "id": 23
+      "id": 23,
+      "website": "https://stajireba.gov.ge/"
     },
     {
       "name": "Rural Development Agency",
       "img": "https://i.ibb.co/ZGMSMxk/6.jpg",
       "type": "organization",
-      "id": 24
+      "id": 24,
+      "website": "https://rda.gov.ge/"
     },
     {
       "img": "https://i.ibb.co/zHsqbz9/7.png",
       "name": "Office of the State Minister",
       "type": "organization",
-      "id": 25
+      "id": 25,
+      "website": "https://smr.gov.ge/"
     },
     {
       "name": "Public Defender of Georgia",
       "img": "https://i.ibb.co/71YQWS6/8.png",
       "type": "organization",
-      "id": 26
+      "id": 26,
+      "website": "https://www.ombudsman.ge/"
     },
     {
       "img": "https://i.ibb.co/7YZ6TkG/9.jpg",
       "name": "Special Penitentiary Service",
       "type": "organization",
-      "id": 27
+      "id": 27,
+      "website": "http://www.sps.gov.ge/ka/vakansia/article/22746-saqarthvelos-sasjelaghsrulebisa-da-probaciis-saministros-n12-penitenciuri-datsesebulebis-socialuri-ganyofilebis-ufrosi"
     },
     {
       "name": "Rustavi 2",
       "img": "https://i.ibb.co/5k6Tbx1/10.png",
       "type": "organization",
-      "id": 28
+      "id": 28,
+      "website": "https://rustavi2.ge/"
     },
     {
       "name": "The National Parlamentary Library of Georgia",
       "img": "https://i.ibb.co/3cLjLBz/11.jpg",
       "type": "organization",
-      "id": 29
+      "id": 29,
+      "website": "https://www.nplg.gov.ge/geo/home"
     },
     {
       "img": "https://i.ibb.co/XY9LSFK/114.jpg",
       "name": "Obiective",
       "type": "organization",
-      "id": 30
+      "id": 30,
+      "website": "https://obieqtivi.info/"
     },
     {
       "name": "Prosecutor's Office of Georgia",
       "img": "https://i.ibb.co/d5xb68H/17f323c5-didipng.png",
       "type": "organization",
-      "id": 31
+      "id": 31,
+      "website": "https://pog.gov.ge/"
     },
     {
       "name": "Notary Chamber of Georgia",
       "img": "https://i.ibb.co/jRwyGK4/1.jpg",
       "type": "organization",
-      "id": 32
+      "id": 32,
+      "website": "https://www.notary.ge/"
     },
     {
       "img": "https://i.ibb.co/dfqBGyv/2.png",
       "name": "Nodia, Urumashvili & Partners",
       "type": "organization",
-      "id": 33
+      "id": 33,
+      "website": "https://alfg.ge/shps-nodia-urumashvili-da-partniorebi/"
     },
     {
       "img": "https://i.ibb.co/Xk24DCw/3.png",
       "name": "Ministry of Internal Affairs",
       "type": "organization",
-      "id": 34
+      "id": 34,
+      "website": "https://police.ge/"
     },
     {
       "name": "Tbilisi City Hal",
       "img": "https://i.ibb.co/whjLLfm/4.jpg",
       "type": "organization",
-      "id": 35
+      "id": 35,
+      "website": "https://tbilisi.gov.ge/"
     },
     {
       "name": "National and Corporate Security Training and Research Center",
       "img": "https://i.ibb.co/VqnSHM0/5.jpg",
       "type": "organization",
-      "id": 36
+      "id": 36,
+      "website": "http://nsc.ge/"
     },
     {
       "name": "Goodwill",
       "img": "https://i.ibb.co/V3kkgn8/6.png",
       "type": "organization",
-      "id": 37
+      "id": 37,
+      "website": "https://www.facebook.com/GOODWILLHYPERMARKET/"
     },
     {
       "name": "Ministry of Finance of Georgia",
       "img": "https://i.ibb.co/VD1MK8D/7.png",
       "type": "organization",
-      "id": 38
+      "id": 38,
+      "website": "https://www.mof.ge/"
     },
     {
       "name": "Degusto",
       "img": "https://i.ibb.co/vx9NsF5/8.png",
       "type": "organization",
-      "id": 39
+      "id": 39,
+      "website": "https://www.facebook.com/Degusto.ge/"
     },
     {
       "name": "HR hub",
       "img": "https://i.ibb.co/Yp5qwsC/9.png",
       "type": "organization",
-      "id": 40
+      "id": 40,
+      "website": "https://hrhub.ge/"
     },
     {
       "name": "Bank of Georgia",
       "img": "https://i.ibb.co/qs2c44T/5a71c767da79b.jpg",
       "type": "organization",
-      "id": 41
+      "id": 41,
+      "website": "https://bankofgeorgia.ge/ka/retail/main"
     },
     {
       "name": "Ministry of Justice of Georgia / National Bureau of Enforcement",
       "img": "https://i.ibb.co/cb3ZvfQ/logo-portal.png",
       "type": "organization",
-      "id": 42
+      "id": 42,
+      "website": "http://nbe.gov.ge/index.php?sec_id=461&lang_id=GEO"
     },
     {
       "name": "Georgian Bar Association",
       "img": "https://i.ibb.co/JcYVM6D/14.png",
       "type": "organization",
-      "id": 43
+      "id": 43,
+      "website": "https://www.gba.ge/ka"
     },
     {
       "name": "2 Nabiji",
       "img": "https://i.ibb.co/W6wyvWV/15.jpg",
       "type": "organization",
-      "id": 44
+      "id": 44,
+      "website": "https://www.facebook.com/2nabijiofficial/"
     }
   ]
 }

@@ -12,9 +12,10 @@ import { DocsComponent } from './About Us/docs/docs.component';
 import { HttpClientModule } from '@angular/common/http';
 import { OurPartnersComponent } from './About Us/our-partners/our-partners.component';
 import { StaffComponent } from './About Us/staff/staff.component';
+import { AdmissionComponent } from './admission/admission.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, AboutUsComponent, DocsComponent, OurPartnersComponent, StaffComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, AboutUsComponent, DocsComponent, OurPartnersComponent, StaffComponent, AdmissionComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, RouterModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],

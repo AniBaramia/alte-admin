@@ -11,4 +11,5 @@ export interface Partner {
   img?: string;
   name?: string;
   type?: string;
+  website?:string;
 }

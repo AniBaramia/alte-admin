@@ -15,6 +15,13 @@
       placeholder="Name"
       [(ngModel)]="partner.name"
     />
+    <input
+      name="web"
+      type="text"
+      placeholder="website"
+      [(ngModel)]="partner.website"
+    />
+
     <select name="staff" [(ngModel)]="partner.type">
       <option value="university">University</option>
       <option value="organization">Organization</option>
@@ -35,7 +42,9 @@
       <th>Edit</th>
     </thead>
     <tbody class="member" *ngFor="let partner of partners">
-      <td><img src="{{ partner.img }}" /></td>
+      <td>
+        <img src="{{ partner.img }}" />
+      </td>
       <td>{{ partner.name }}</td>
       <td>{{ partner.type }}</td>
       <td>
