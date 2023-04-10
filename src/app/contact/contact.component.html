@@ -1,0 +1,18 @@
+<div class="users">
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Message</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let user of users">
+      <tr>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.message }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

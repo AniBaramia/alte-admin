@@ -13,9 +13,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { OurPartnersComponent } from './About Us/our-partners/our-partners.component';
 import { StaffComponent } from './About Us/staff/staff.component';
 import { AdmissionComponent } from './admission/admission.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, AboutUsComponent, DocsComponent, OurPartnersComponent, StaffComponent, AdmissionComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, AboutUsComponent, DocsComponent, OurPartnersComponent, StaffComponent, AdmissionComponent, ContactComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, RouterModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],

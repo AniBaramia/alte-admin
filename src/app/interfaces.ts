@@ -11,5 +11,11 @@ export interface Partner {
   img?: string;
   name?: string;
   type?: string;
-  website?:string;
+  website?: string;
+}
+
+export interface User {
+  name?: string;
+  email?: string;
+  message?: string;
 }

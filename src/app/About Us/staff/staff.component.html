@@ -35,29 +35,33 @@
 <div class="members-container">
   <table>
     <thead>
-      <th>Image</th>
-      <th>Name</th>
-      <th>Title</th>
-      <th>Type</th>
-      <th>Edit</th>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Title</th>
+        <th>Type</th>
+        <th>Edit</th>
+      </tr>
     </thead>
     <tbody class="member" *ngFor="let member of members">
-      <td><img src="{{ member.img }}" /></td>
-      <td>{{ member.name }}</td>
-      <td>{{ member.title }}</td>
-      <td>{{ member.type }}</td>
-      <td>
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
-          class="removebtn"
-          (click)="removeOnClick(member.id)"
-        />
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/1160/1160515.png"
-          class="editbtn"
-          (click)="editOnClick(member)"
-        />
-      </td>
+      <tr>
+        <td><img src="{{ member.img }}" /></td>
+        <td>{{ member.name }}</td>
+        <td>{{ member.title }}</td>
+        <td>{{ member.type }}</td>
+        <td>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
+            class="removebtn"
+            (click)="removeOnClick(member.id)"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1160/1160515.png"
+            class="editbtn"
+            (click)="editOnClick(member)"
+          />
+        </td>
+      </tr>
     </tbody>
   </table>
 </div>
