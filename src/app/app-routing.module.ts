@@ -6,6 +6,9 @@ import { DocsComponent } from './About Us/docs/docs.component';
 import { OurPartnersComponent } from './About Us/our-partners/our-partners.component';
 import { StaffComponent } from './About Us/staff/staff.component';
 import { ContactComponent } from './contact/contact.component';
+import { EditorComponent } from './editor/editor.component';
+import { AdmissionComponent } from './admission/admission.component';
+import { CmsComponent } from './cms/cms.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -15,6 +18,13 @@ const routes: Routes = [
   { path: 'docs', component: DocsComponent },
   { path: 'our-partners', component: OurPartnersComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'editor', component: EditorComponent },
+  { path: 'admission', component: AdmissionComponent, pathMatch: 'full' },
+  {
+    path: 'admission/cms',
+    component: CmsComponent,
+  },
+ 
 ];
 
 @NgModule({

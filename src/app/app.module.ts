@@ -14,10 +14,13 @@ import { OurPartnersComponent } from './About Us/our-partners/our-partners.compo
 import { StaffComponent } from './About Us/staff/staff.component';
 import { AdmissionComponent } from './admission/admission.component';
 import { ContactComponent } from './contact/contact.component';
-
+import { NgxEditorModule } from 'ngx-editor';
+import { EditorComponent } from './editor/editor.component';
+import { InternationalStudentsComponent } from './international-students/international-students.component';
+import { CmsComponent } from './cms/cms.component';
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, AboutUsComponent, DocsComponent, OurPartnersComponent, StaffComponent, AdmissionComponent, ContactComponent],
-  imports: [BrowserModule, AppRoutingModule, FormsModule, RouterModule, HttpClientModule],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, AboutUsComponent, DocsComponent, OurPartnersComponent, StaffComponent, AdmissionComponent, ContactComponent, EditorComponent, InternationalStudentsComponent, CmsComponent],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, RouterModule, HttpClientModule, NgxEditorModule],
   providers: [],
   bootstrap: [AppComponent],
 })

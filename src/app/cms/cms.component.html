@@ -1,0 +1,43 @@
+<input type="text" placeholder="url" name="text" [(ngModel)]="url">
+<ngx-editor-menu [editor]="editor"> </ngx-editor-menu>
+<ngx-editor
+  [editor]="editor"
+  [(ngModel)]="html"
+  [disabled]="false"
+  [placeholder]="'Type here...'"
+></ngx-editor>
+
+<button (click)="onSaveClick()">Save</button>
+
+
+
+
+
+<div class="text">
+    <table>
+      <thead>
+        <tr>
+          <th>Url</th>
+          <th>Content</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let cms of cms">
+        <tr>
+          <td>{{cms.url}}</td>
+          <td>{{cms.content}}</td>
+          <td>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
+              class="removebtn"
+              (click)="removeOnClick(cms.id)"
+            />
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1160/1160515.png"
+              class="editbtn"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

@@ -537,5 +537,22 @@
       "desctription": "test",
       "id": 1
     }
+  ],
+  "cms": [
+    {
+      "url": "mobility",
+      "content": "<p>test</p>",
+      "id": 2
+    },
+    {
+      "url": "ani",
+      "content": "<p>test</p>",
+      "id": 3
+    },
+    {
+      "url": "ტესტ",
+      "content": "<p>ტესტ</p>",
+      "id": 4
+    }
   ]
 }
