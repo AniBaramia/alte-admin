@@ -16,11 +16,30 @@ import { AdmissionComponent } from './admission/admission.component';
 import { ContactComponent } from './contact/contact.component';
 import { NgxEditorModule } from 'ngx-editor';
 import { EditorComponent } from './editor/editor.component';
-import { InternationalStudentsComponent } from './international-students/international-students.component';
 import { CmsComponent } from './cms/cms.component';
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, AboutUsComponent, DocsComponent, OurPartnersComponent, StaffComponent, AdmissionComponent, ContactComponent, EditorComponent, InternationalStudentsComponent, CmsComponent],
-  imports: [BrowserModule, AppRoutingModule, FormsModule, RouterModule, HttpClientModule, NgxEditorModule],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    HomeComponent,
+    AboutUsComponent,
+    DocsComponent,
+    OurPartnersComponent,
+    StaffComponent,
+    AdmissionComponent,
+    ContactComponent,
+    EditorComponent,
+    CmsComponent,
+  ],
+  imports: [
+    BrowserModule,
+    
+    AppRoutingModule,
+    FormsModule,
+    RouterModule,
+    HttpClientModule,
+    NgxEditorModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
