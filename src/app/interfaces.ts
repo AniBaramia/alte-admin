@@ -19,3 +19,10 @@ export interface User {
   email?: string;
   message?: string;
 }
+
+export interface Admission {
+  id: number;
+  title: string;
+  description: string;
+  content: string;
+}

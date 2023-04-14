@@ -17,6 +17,9 @@ import { ContactComponent } from './contact/contact.component';
 import { NgxEditorModule } from 'ngx-editor';
 import { EditorComponent } from './editor/editor.component';
 import { CmsComponent } from './cms/cms.component';
+import { PopupComponent } from './popup/popup.component';
+import { ActionButtonsComponent } from './popup/action-buttons/action-buttons.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,10 +33,11 @@ import { CmsComponent } from './cms/cms.component';
     ContactComponent,
     EditorComponent,
     CmsComponent,
+    PopupComponent,
+    ActionButtonsComponent,
   ],
   imports: [
     BrowserModule,
-    
     AppRoutingModule,
     FormsModule,
     RouterModule,

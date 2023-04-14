@@ -1,3 +1,12 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+input,
+select {
+  width: 400px;
+  padding: 8px 2px;
+  border: none;
+  border-bottom: 1px solid #0e3d4b;
+  outline: none;
+}

@@ -1,0 +1,10 @@
+<div class="backdrop" *ngIf="visible">
+  <div class="container">
+    <button class="close" (click)="closeOnClick()">
+      <img src="https://static.thenounproject.com/png/1014483-200.png" />
+    </button>
+    <div class="title">{{ title }}</div>
+
+    <ng-content></ng-content>
+  </div>
+</div>

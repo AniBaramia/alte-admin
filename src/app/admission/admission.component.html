@@ -1,7 +1,62 @@
-<div class="menu-items" [routerLink]="item.url" *ngFor="let item of menuItems">
-  <div class="item">
-    <div><img [src]="item.img" /></div>
-    <div>{{ item.title }}</div>
-  </div>
-</div>
+<div class="add" (click)="addOnClick()"><button>Add New Admission</button></div>
 
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let admission of admissions">
+    <tr>
+      <td>{{ admission.title }}</td>
+      <td>{{ admission.description }}</td>
+      <td>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
+          class="removebtn"
+          (click)="removeOnClick(admission.id)"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1160/1160515.png"
+          class="editbtn"
+          (click)="editOnClick(admission.id)"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<ui-popup [(visible)]="popupVisibility">
+  <form #form="ngForm">
+    <input
+      name="title"
+      placeholder="Title"
+      [(ngModel)]="admission.title"
+      [required]="true"
+    />
+
+    <input
+      name="description"
+      placeholder="Description"
+      [(ngModel)]="admission.description"
+      [required]="true"
+    />
+
+    <div class="editor">
+      <ngx-editor-menu [editor]="editor"> </ngx-editor-menu>
+      <ngx-editor
+        name="content"
+        [editor]="editor"
+        [(ngModel)]="html"
+        [disabled]="false"
+        [placeholder]="'Type here...'"
+      ></ngx-editor>
+    </div>
+
+    <ui-action-buttons
+      [disabled]="form.invalid"
+      (onCreate)="createOnClick()"
+    ></ui-action-buttons>
+  </form>
+</ui-popup>
