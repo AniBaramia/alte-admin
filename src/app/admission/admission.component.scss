@@ -4,8 +4,31 @@ button {
   color: white;
   border-radius: 16px;
   cursor: pointer;
+  margin-bottom: 32px;
 }
 
-.editor{
+.editor {
   margin-top: 12px;
+}
+.btns{
+  display: flex;
+  gap:12px;
+}
+.removebtn,
+.editbtn {
+  height: 20px;
+  cursor: pointer;
+}
+table {
+  
+  margin: auto;
+  width: 90%;
+  border: 1px solid #0e3d4b;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
 }
