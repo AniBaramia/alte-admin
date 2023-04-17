@@ -1,63 +1,31 @@
-<div class="add" (click)="addOnClick()"><button>Add New Admission</button></div>
+<form #form="ngForm" *ngIf="admission">
+  <input
+    name="title"
+    placeholder="Title"
+    [(ngModel)]="admission.title"
+    [required]="true"
+  />
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Edit</th>
-    </tr>
-  </thead>
-  <tbody *ngFor="let admission of admissions">
-    <tr>
-      <td>{{ admission.title }}</td>
-      <td>{{ admission.description }}</td>
-      <td class="btns">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
-          class="removebtn"
-          (click)="removeOnClick(admission.id)"
-        />
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/1160/1160515.png"
-          class="editbtn"
-          (click)="editOnClick(admission.id)"
-        />
-      </td>
-    </tr>
-  </tbody>
-</table>
+  <input
+    name="description"
+    placeholder="Description"
+    [(ngModel)]="admission.description"
+    [required]="true"
+  />
 
-<ui-popup [(visible)]="popupVisibility">
-  <form #form="ngForm">
-    <input
-      name="title"
-      placeholder="Title"
-      [(ngModel)]="admission.title"
-      [required]="true"
-    />
+  <div class="editor">
+    <ngx-editor-menu [editor]="editor" [toolbar]="toolbar"> </ngx-editor-menu>
+    <ngx-editor
+      name="content"
+      [editor]="editor"
+      [(ngModel)]="html"
+      [disabled]="false"
+      [placeholder]="'Type here...'"
+    ></ngx-editor>
+  </div>
 
-    <input
-      name="description"
-      placeholder="Description"
-      [(ngModel)]="admission.description"
-      [required]="true"
-    />
-
-    <div class="editor">
-      <ngx-editor-menu [editor]="editor"> </ngx-editor-menu>
-      <ngx-editor
-        name="content"
-        [editor]="editor"
-        [(ngModel)]="html"
-        [disabled]="false"
-        [placeholder]="'Type here...'"
-      ></ngx-editor>
-    </div>
-
-    <ui-action-buttons
-      [disabled]="form.invalid"
-      (onCreate)="createOnClick()"
-    ></ui-action-buttons>
-  </form>
-</ui-popup>
+  <ui-action-buttons
+    [disabled]="form.invalid"
+    (onSave)="saveOnClick()"
+  ></ui-action-buttons>
+</form>

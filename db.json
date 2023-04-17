@@ -557,10 +557,10 @@
   ],
   "admissions": [
     {
+      "id": 1,
       "title": "Mobility Rules",
       "description": "The external mobility of the spring semester of the 2022 - 2023 academic year begins at Alte University",
-      "content": "<p><strong><span style=\"color:rgb(19, 65, 71);\">Mobility Rules</span></strong></p><p><span style=\"color:rgb(19, 65, 71);\">The external mobility of the spring semester of the 2022–2023 academic year begins at Alte University.</span></p><p><span style=\"color:rgb(19, 65, 71);\">Students wishing to transfer to Alte University for external mobility in the spring semester of the 2022-2023 academic year must register on the electronic portal At the time of registration, students should indicate Alte University as the first place in the list of universities.</span></p><p><span style=\"color:rgb(19, 65, 71);\">External mobility registration period: from January 30, 2023, at 12:00 p.m. to February 8, 2023, at 6:00 </span><a href=\"p.m.\" target=\"_blank\"><span style=\"color:rgb(19, 65, 71);\">p.m.</span></a></p><p><span style=\"color:rgb(19, 65, 71);\">Students who are eligible to transfer to Alte University must apply between February 10 and February 13.</span></p><p><span style=\"color:rgb(19, 65, 71);\">Applicants can send their application either by bringing it to the university or sending it by e-mail: </span><strong><span style=\"color:rgb(19, 65, 71);\">n.chanturia@</span></strong><a href=\"alte.edu.ge\" target=\"_blank\"><strong><span style=\"color:rgb(19, 65, 71);\">alte.edu.ge</span></strong></a><span style=\"color:rgb(19, 65, 71);\">.</span></p><p><span style=\"color:rgb(19, 65, 71);\">A student wishing to be transferred will get acquainted with the prepared report on the recognition of credits and will confirm by signing his consent to enroll in Alte University on the basis of mobility.</span></p><p><span style=\"color:rgb(19, 65, 71);\">Documents required for enrollment are:</span></p><ul><li><p><span style=\"color:rgb(19, 65, 71);\">Statement addressed to the president of the university (please see the attachment at the bottom of the page)</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">Copy of ID</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">Certificate / Diploma (copy)</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">Student study card</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">A copy of the enrollment order from the home university</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">Certificate of student status</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">Copy of pre-conscription military registration certificate (for boys)</span></p></li></ul><p><span style=\"color:rgb(19, 65, 71);\">Documents to be submitted after enrollment:</span></p><ul><li><p><span style=\"color:rgb(19, 65, 71);\">Certificate(original) or notarized diploma copy</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">2 pieces of 3X4photo</span></p></li></ul><p><span style=\"color:rgb(19, 65, 71);\">Programs and admission places</span></p>",
-      "id": 1
+      "content": "<p><strong><span style=\"color:rgb(19, 65, 71);\">Mobility Rules</span></strong></p><p><span style=\"color:rgb(19, 65, 71);\">The external mobility of the spring semester of the 2022–2023 academic year begins at Alte University.</span></p><p><span style=\"color:rgb(19, 65, 71);\">Students wishing to transfer to Alte University for external mobility in the spring semester of the 2022-2023 academic year must register on the electronic portal At the time of registration, students should indicate Alte University as the first place in the list of universities.</span></p><p><span style=\"color:rgb(19, 65, 71);\">External mobility registration period: from January 30, 2023, at 12:00 p.m. to February 8, 2023, at 6:00 PM.</span></p><p><span style=\"color:rgb(19, 65, 71);\">Students who are eligible to transfer to Alte University must apply between February 10 and February 13.</span></p><p><span style=\"color:rgb(19, 65, 71);\">Applicants can send their application either by bringing it to the university or sending it by e-mail: </span><strong><span style=\"color:rgb(19, 65, 71);\">n.chanturia@alte.edu.ge</span></strong></p><p><span style=\"color:rgb(19, 65, 71);\">A student wishing to be transferred will get acquainted with the prepared report on the recognition of credits and will confirm by signing his consent to enroll in Alte University on the basis of mobility.</span></p><p><span style=\"color:rgb(19, 65, 71);\">Documents required for enrollment are:</span></p><ul><li><p><span style=\"color:rgb(19, 65, 71);\">Statement addressed to the president of the university (please see the attachment at the bottom of the page)</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">Copy of ID</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">Certificate / Diploma (copy)</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">Student study card</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">A copy of the enrollment order from the home university</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">Certificate of student status</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">Copy of pre-conscription military registration certificate (for boys)</span></p></li></ul><p><span style=\"color:rgb(19, 65, 71);\">Documents to be submitted after enrollment:</span></p><ul><li><p><span style=\"color:rgb(19, 65, 71);\">Certificate(original) or notarized diploma copy</span></p></li><li><p><span style=\"color:rgb(19, 65, 71);\">2 pieces of 3X4photo</span></p></li></ul><p><span style=\"color:rgb(19, 65, 71);\">Programs and admission places</span></p>"
     },
     {
       "title": "Admission rules for international students",
@@ -582,6 +582,21 @@
     }
   ],
   "subscription": [
-    
+    {
+      "email": "g.tabidze.dev@gmail.com",
+      "fields": [
+        "Medicine"
+      ],
+      "id": 1
+    },
+    {
+      "email": "barsona@gmail.com",
+      "fields": [
+        "Medicine",
+        "Journalism",
+        "Start up & Innovation"
+      ],
+      "id": 2
+    }
   ]
 }

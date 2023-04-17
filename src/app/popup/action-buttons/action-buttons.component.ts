@@ -10,13 +10,13 @@ export class ActionButtonsComponent implements OnInit {
   disabled?: boolean | null;
 
   @Output()
-  onCreate = new EventEmitter();
+  onSave = new EventEmitter();
 
   constructor() {}
 
   ngOnInit(): void {}
 
-  createOnClick() {
-    this.onCreate.emit();
+  saveOnClick() {
+    this.onSave.emit();
   }
 }

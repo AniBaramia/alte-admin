@@ -12,13 +12,13 @@ import { DocsComponent } from './About Us/docs/docs.component';
 import { HttpClientModule } from '@angular/common/http';
 import { OurPartnersComponent } from './About Us/our-partners/our-partners.component';
 import { StaffComponent } from './About Us/staff/staff.component';
-import { AdmissionComponent } from './admission/admission.component';
+import { AdmissionsComponent } from './admissions/admissions.component';
 import { ContactComponent } from './contact/contact.component';
 import { NgxEditorModule } from 'ngx-editor';
 import { EditorComponent } from './editor/editor.component';
-import { CmsComponent } from './cms/cms.component';
 import { PopupComponent } from './popup/popup.component';
 import { ActionButtonsComponent } from './popup/action-buttons/action-buttons.component';
+import { AdmissionComponent } from './admission/admission.component';
 
 @NgModule({
   declarations: [
@@ -29,12 +29,12 @@ import { ActionButtonsComponent } from './popup/action-buttons/action-buttons.co
     DocsComponent,
     OurPartnersComponent,
     StaffComponent,
-    AdmissionComponent,
+    AdmissionsComponent,
     ContactComponent,
     EditorComponent,
-    CmsComponent,
     PopupComponent,
     ActionButtonsComponent,
+    AdmissionComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,7 +42,41 @@ import { ActionButtonsComponent } from './popup/action-buttons/action-buttons.co
     FormsModule,
     RouterModule,
     HttpClientModule,
-    NgxEditorModule,
+    NgxEditorModule.forRoot({
+      locals: {
+        // menu
+        bold: 'Bold',
+        italic: 'Italic',
+        code: 'Code',
+        blockquote: 'Blockquote',
+        underline: 'Underline',
+        strike: 'Strike',
+        bullet_list: 'Bullet List',
+        ordered_list: 'Ordered List',
+        heading: 'Heading',
+        h1: 'Header 1',
+        h2: 'Header 2',
+        h3: 'Header 3',
+        h4: 'Header 4',
+        h5: 'Header 5',
+        h6: 'Header 6',
+        align_left: 'Left Align',
+        align_center: 'Center Align',
+        align_right: 'Right Align',
+        align_justify: 'Justify',
+        text_color: 'Text Color',
+        background_color: 'Background Color',
+
+        // popups, forms, others...
+        url: 'URL',
+        text: 'Text',
+        openInNewTab: 'Open in new tab',
+        insert: 'Insert',
+        altText: 'Alt Text',
+        title: 'Title',
+        remove: 'Remove',
+      },
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

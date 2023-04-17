@@ -1,0 +1,31 @@
+<div class="add" routerLink="/admission">
+  <button>Add New Admission</button>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Edit</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let admission of admissions">
+    <tr>
+      <td>{{ admission.title }}</td>
+      <td>{{ admission.description }}</td>
+      <td class="action-btns">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
+          class="removebtn"
+          (click)="removeOnClick(admission.id)"
+        />
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1160/1160515.png"
+          class="editbtn"
+          [routerLink]="['/admission', admission.id]"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
