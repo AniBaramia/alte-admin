@@ -598,5 +598,70 @@
       ],
       "id": 2
     }
+  ],
+  "programs": [
+    {
+      "img": "https://i.ibb.co/XtJCg2B/business.png",
+      "name": "Business Administration Program",
+      "url": "/studies",
+      "type": "bachelor",
+      "id": 1
+    },
+    {
+      "img": "https://i.ibb.co/B3F8Fw7/law.png",
+      "name": "Law",
+      "url": "/studies",
+      "type": "bachelor",
+      "id": 2
+    },
+    {
+      "img": "https://i.ibb.co/TYLnWb0/med.png",
+      "name": "Dentistry(English)",
+      "url": "/studies",
+      "type": "bachelor",
+      "id": 3
+    },
+    {
+      "img": "https://i.ibb.co/XtJCg2B/business.png",
+      "name": "Tourism and Hospitality Program",
+      "url": "/studies",
+      "type": "bachelor",
+      "id": 4
+    },
+    {
+      "img": "https://i.ibb.co/WVnrnx7/IT.png",
+      "name": "Computer Science(Georgian)",
+      "url": "/studies",
+      "type": "bachelor",
+      "id": 5
+    },
+    {
+      "img": "https://i.ibb.co/WVnrnx7/IT.png",
+      "name": "Computer Science(English)",
+      "url": "/studies",
+      "type": "bachelor",
+      "id": 6
+    },
+    {
+      "img": "https://i.ibb.co/TYLnWb0/med.png",
+      "name": "Medical Doctor(Georgian)",
+      "url": "/studies",
+      "type": "bachelor",
+      "id": 7
+    },
+    {
+      "img": "https://i.ibb.co/6JsGH90/hum.png",
+      "name": "Psychology",
+      "url": "/studies",
+      "type": "bachelor",
+      "id": 8
+    },
+    {
+      "img": "https://i.ibb.co/6JsGH90/hum.png",
+      "name": "International Relations",
+      "url": "/studies",
+      "type": "bachelor",
+      "id": 9
+    }
   ]
 }

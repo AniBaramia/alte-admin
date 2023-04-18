@@ -26,3 +26,11 @@ export interface Admission {
   description: string;
   content: string;
 }
+
+export interface Program {
+  id?:number;
+  name?:string;
+  url?:string;
+  img?:string;
+  type?:string;
+}

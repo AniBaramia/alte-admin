@@ -1,0 +1,48 @@
+<button (click)="addOnClick()">Add Program</button>
+
+<form #popup="ngForm" *ngIf="popupVisibility">
+    <div class="container">
+      <div class="ttl">Add New Program</div>
+      <input
+        name="img"
+        type="text"
+        placeholder="Image Url"
+        [(ngModel)]="program.img"
+      />
+      <input
+        name="name"
+        type="text"
+        placeholder="Name"
+        [(ngModel)]="program.name"
+      />
+      <input
+        name="url"
+        type="text"
+        placeholder="url"
+        [(ngModel)]="program.url"
+      />
+      <select name="staff" [(ngModel)]="program.type">
+        <option value="bachelor">Bachelor</option>
+        <option value="master">Master</option>
+      </select>
+      <div class="buttons">
+        <div class="cancel" (click)="cancelOnClick()" >Cancel</div>
+        <div class="create" (click)="createOnClick(program)" >Create</div>
+      </div>
+    </div>
+  </form>
+
+
+  
+
+
+
+
+<div class="programs">
+  <div [routerLink]="program.url" *ngFor="let program of programs">
+    <div class="item">
+      <div><img [src]="program.img" /></div>
+      <div>{{ program.name }}</div>
+    </div>
+  </div>
+</div>

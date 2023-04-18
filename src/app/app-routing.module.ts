@@ -9,6 +9,8 @@ import { ContactComponent } from './contact/contact.component';
 import { EditorComponent } from './editor/editor.component';
 import { AdmissionsComponent } from './admissions/admissions.component';
 import { AdmissionComponent } from './admission/admission.component';
+import { FaqComponent } from './faq/faq.component';
+import { StudiesComponent } from './studies/studies.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -22,6 +24,8 @@ const routes: Routes = [
   { path: 'admissions', component: AdmissionsComponent },
   { path: 'admission', component: AdmissionComponent },
   { path: 'admission/:id', component: AdmissionComponent },
+  { path: 'faq', component: FaqComponent },
+  { path: 'studies', component: StudiesComponent },
 ];
 
 @NgModule({
