@@ -663,5 +663,97 @@
       "type": "bachelor",
       "id": 9
     }
+  ],
+  "faq": [
+    {
+      "question": "Where is the university located?",
+      "answer": "<p>Tbilisi, University St. N2 ZIP: 0177</p>",
+      "id": 1,
+      "category": "about-university"
+    },
+    {
+      "question": "How do I contact the university?",
+      "answer": "<p>Mob: (+995 32) 2402946/48 E-Mail: Info@Alte.Edu.Ge</p>",
+      "id": 2,
+      "category": "about-university"
+    },
+    {
+      "question": "Which level of academic program does Alte University offer?",
+      "answer": "<p>Alte University offers undergraduate and graduate programs to entrants.</p>",
+      "id": 3,
+      "category": "about-university"
+    },
+    {
+      "question": "Are the Alte university academic programs accredited?",
+      "answer": "<p>According to the 2018 International Standards, Alte University has full authorization.All educational programs are accredited and funded by state grants.</p>",
+      "id": 4,
+      "category": "about-university"
+    },
+    {
+      "question": "How is admission to the undergraduate program?",
+      "answer": "<p><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">To learn about the undergraduate program admission requirements, please check the information </span></span><a href=\"https://alte.edu.ge/en/admissions/undergraduate-program-admission\" title=\"https://alte.edu.ge/en/admissions/undergraduate-program-admission\" target=\"_blank\"><span style=\"color:rgb(235, 94, 81) !important;\"><span style=\"background-color:rgb(255, 255, 255);\">here</span></span></a><span style=\"color:rgb(235, 94, 81) !important;\"><span style=\"background-color:rgb(255, 255, 255);\">.</span></span><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">&nbsp;</span></span></p>",
+      "id": 5,
+      "category": "admission-rules"
+    },
+    {
+      "question": "How is admission to the Master program?",
+      "answer": "<p><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">To learn about the Master program admission requirements, please check the information </span></span><a href=\"https://alte.edu.ge/en/admissions/masters-program-admission\" title=\"https://alte.edu.ge/en/admissions/masters-program-admission\" target=\"_blank\"><span style=\"color:rgb(235, 94, 81) !important;\"><span style=\"background-color:rgb(255, 255, 255);\">here</span></span></a><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">.&nbsp;</span></span></p>",
+      "id": 6,
+      "category": "admission-rules"
+    },
+    {
+      "question": "How is mobility process at Alte University?",
+      "answer": "<p><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">To learn about mobility process requirements, please check the information </span></span><a href=\"https://alte.edu.ge/en/admissions/mobility-rules\" title=\"https://alte.edu.ge/en/admissions/mobility-rules\" target=\"_blank\">here</a><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">.&nbsp;</span></span></p>",
+      "id": 7,
+      "category": "admission-rules"
+    },
+    {
+      "question": "Rules for Admission of International Students",
+      "answer": "<p><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">For detailed information about admission procedures please click this </span></span><a href=\"https://alte.edu.ge/en/program/medical-doctor-english\" title=\"https://alte.edu.ge/en/program/medical-doctor-english\" target=\"_blank\">link</a><a href=\"https://alte.edu.ge/en/program/medical-doctor-english\" target=\"_blank\"><span style=\"color:rgb(235, 94, 81) !important;\"><span style=\"background-color:rgb(255, 255, 255);\">.</span></span></a></p>",
+      "id": 8,
+      "category": "admission-rules"
+    },
+    {
+      "question": "Job Opportunities for international students",
+      "answer": "<p><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">After graduation, the students will have the opportunity to work as junior doctors.</span></span></p>",
+      "id": 9,
+      "category": "int-students-info"
+    },
+    {
+      "question": "International Accreditation",
+      "answer": "<p><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">Alte University is accredited by NCEQE, WFME, ENQA, AMEE, MCI, ECFMG.</span></span></p>",
+      "id": 10,
+      "category": "int-students-info"
+    },
+    {
+      "question": "Accommodation",
+      "answer": "<p><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">Successful applicants should contact the Student Service department at this email: s.nikolaishvili@alte.edu.ge. Open from Monday to Friday: 10.00 am to 6.00 pm</span></span></p>",
+      "id": 11,
+      "category": "int-students-info"
+    },
+    {
+      "question": "Insurance",
+      "answer": "<p><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">You can purchase insurance online, on the web page of IMEDI-L. The yearly cost of insurance is 360GEL. The six-month insurance price is 180GEL. Please, check the appropriate link for your reference</span></span><a href=\"https://studentsinsurance.imedil.ge/buyOnline\" target=\"_blank\"><span style=\"color:rgb(235, 94, 81) !important;\"><span style=\"background-color:rgb(255, 255, 255);\"> </span></span></a><a href=\"https://studentsinsurance.imedil.ge/buyOnline\" title=\"https://studentsinsurance.imedil.ge/buyOnline\" target=\"_blank\">here</a><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">.</span></span></p>",
+      "id": 12,
+      "category": "int-students-info"
+    },
+    {
+      "question": "VISA",
+      "answer": "<p><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">To learn about visa requirements, please check the Consular information </span></span><a href=\"https://www.geoconsul.gov.ge/en/visaInformation?process=2\" title=\"https://www.geoconsul.gov.ge/en/visaInformation?process=2\" target=\"_blank\">here</a><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">.</span></span></p>",
+      "id": 13,
+      "category": "int-students-info"
+    },
+    {
+      "question": "Does Alte University have exchange programs?",
+      "answer": "<p><span style=\"color:rgb(20, 65, 71) !important;\"><span style=\"background-color:rgb(255, 255, 255);\">Alte University, with its extensive international institutional collaboration and strategic partners in the local and international markets, can attract both international students, researchers, and professors, as well as provide foreign experience to its students and science.</span></span></p><p><span style=\"color:rgb(20, 65, 71) !important;\"><span style=\"background-color:rgb(255, 255, 255);\"><br></span></span><span style=\"background-color:rgb(255, 255, 255);\">There is a Confucius institute at Alte University, where anyone can master the Chinese language and then continue their studies in China with 100% funding. In addition, Alte University also offers exchange programs with partner universities in Europe, Asia, and the Caucasus.</span></p>",
+      "id": 14,
+      "category": "Exchange-Programs"
+    },
+    {
+      "question": "Does an Alte University student have the opportunity for employment / internship?",
+      "answer": "<p><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">Alte university cooperates with a number of private companies and government agencies, where university students are given the opportunity to do an internship. Students are given the opportunity for employment upon successful completion of the internship</span></span></p>",
+      "id": 15,
+      "category": "Internship"
+    }
   ]
 }

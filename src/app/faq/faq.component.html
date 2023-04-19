@@ -1,1 +1,65 @@
+<div class="add" (click)=" addOnClick()"><button>Add New Question</button></div>
 
+<form #popup="ngForm" *ngIf="popupVisibility">
+  <div class="container">
+    <div class="ttl">Add New Question</div>
+    <input
+      name="Question"
+      type="text"
+      placeholder="Question"
+      [(ngModel)]="faq.question"
+    />
+    <div class="editor">
+        <ngx-editor-menu [editor]="editor" [toolbar]="toolbar"> </ngx-editor-menu>
+        <ngx-editor
+          name="answer"
+          [editor]="editor"
+          [(ngModel)]="html"
+          [disabled]="false"
+          [placeholder]="'Type here...'"
+        ></ngx-editor>
+      </div>
+      <select name="staff" [(ngModel)]="faq.category">
+        <option value="int-students-info">Information for International Students</option>
+        <option value="about-university">About University</option>
+        <option value="admission-rules">Admission rules at Alte University</option>
+        <option value="Exchange-Programs">Exchange Programs</option>
+        <option value="Internship">Internship/ Employment opportunities at Alte University</option>
+      </select>
+    <div class="buttons">
+      <div class="cancel" (click)="cancelOnClick()">Cancel</div>
+      <div class="create" (click)="createOnClick()">Create</div>
+    </div>
+  </div>
+</form>
+
+
+<div class="faq-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Question</th>
+          <th>Answer</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+      <tbody class="member" *ngFor="let question of questions">
+        <tr>
+          <td>{{ question.question }}</td>
+          <td>{{ question.answer }}</td>
+          <td>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
+              class="removebtn"
+              (click)="removeOnClick(question.id!)"
+            />
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1160/1160515.png"
+              class="editbtn"
+              (click)="editOnClick(question)"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

@@ -1,0 +1,81 @@
+button {
+  padding: 8px 16px;
+  background-color: #0e3d4b;
+  color: white;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.container {
+  width: 850px;
+  padding: 100px 0px 160px;
+  border: 1px solid #0e3d4b;
+  box-shadow: 2px 2px 0px 0px #0e3d4b;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: end;
+  .ttl {
+    font-size: 20px;
+    color: #0e3d4b;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  input,
+  select {
+    width: 680px;
+    padding: 8px 2px;
+    border: none;
+    border-bottom: 1px solid #0e3d4b;
+    outline: none;
+  }
+  .buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 100px;
+
+    .cancel,
+    .create {
+      padding: 4px 16px;
+      background-color: #0e3d4b;
+      color: white;
+      border-radius: 16px;
+      cursor: pointer;
+    }
+  }
+}
+
+.faq-container {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.removebtn,
+.editbtn {
+  height: 20px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+  border: 1px solid #0e3d4b;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  border-bottom: 1px solid #0e3d4b;
+  padding: 8px;
+}
+tr:hover {
+  background-color: #f26659;
+}

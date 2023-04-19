@@ -34,3 +34,10 @@ export interface Program {
   img?:string;
   type?:string;
 }
+
+export interface FAQ {
+  id?:number;
+  question?:string;
+  answer?:string;
+  category?:string;
+}
