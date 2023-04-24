@@ -41,3 +41,13 @@ export interface FAQ {
   answer?:string;
   category?:string;
 }
+
+export interface News {
+  id?:number;
+  img?:string;
+  title?:string;
+  date?:Date;
+  description?:string;
+  content?:string;
+}
+

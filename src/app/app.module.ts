@@ -21,6 +21,7 @@ import { ActionButtonsComponent } from './popup/action-buttons/action-buttons.co
 import { AdmissionComponent } from './admission/admission.component';
 import { FaqComponent } from './faq/faq.component';
 import { StudiesComponent } from './studies/studies.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { StudiesComponent } from './studies/studies.component';
     AdmissionComponent,
     FaqComponent,
     StudiesComponent,
+    NewsComponent,
   ],
   imports: [
     BrowserModule,

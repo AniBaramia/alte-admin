@@ -1,0 +1,79 @@
+<p>News</p>
+<div class="add" (click)="addOnClick()"><button>Add New Memeber</button></div>
+
+<form #popup="ngForm" *ngIf="popupVisibility">
+  <div class="container">
+    <div class="ttl">Add New Question</div>
+    <input
+      name="title"
+      type="text"
+      placeholder="Title"
+      [(ngModel)]="news.title"
+    />
+    <input
+      name="img"
+      type="text"
+      placeholder="Image Url"
+      [(ngModel)]="news.img"
+    />
+    <input
+      name="date"
+      type="date"
+      placeholder="Date"
+      [(ngModel)]="news.date"
+    />
+    <input
+    name="Description"
+    type="text"
+    placeholder="Description"
+    [(ngModel)]="news.description"
+  />
+    <div class="editor">
+      <ngx-editor-menu [editor]="editor" [toolbar]="toolbar"> </ngx-editor-menu>
+      <ngx-editor
+        name="content"
+        [editor]="editor"
+        [(ngModel)]="html"
+        [disabled]="false"
+        [placeholder]="'Type here...'"
+      ></ngx-editor>
+    </div>
+
+    <div class="buttons">
+      <div class="cancel" (click)="cancelOnClick()">Cancel</div>
+      <div class="create" (click)="createOnClick()">Create</div>
+    </div>
+  </div>
+</form>
+
+<div class="news-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Img</th>
+        <th>Date</th>
+        <th>Description</th>
+        <th>edit</th>
+      </tr>
+    </thead>
+    <tbody class="member" *ngFor="let news of newses">
+      <tr>
+        <td>{{ news.title }}</td>
+        <td><img src="{{ news.img }}" /></td>
+        <td>{{ news.date }}</td>
+        <td>{{ news.description }}</td>
+        <td>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
+            class="removebtn" (click)="removeOnClick(news.id!)"
+          />
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/1160/1160515.png"
+            class="editbtn" (click)="editOnClick(news)"
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

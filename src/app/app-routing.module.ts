@@ -11,6 +11,7 @@ import { AdmissionsComponent } from './admissions/admissions.component';
 import { AdmissionComponent } from './admission/admission.component';
 import { FaqComponent } from './faq/faq.component';
 import { StudiesComponent } from './studies/studies.component';
+import { NewsComponent } from './news/news.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -24,8 +25,9 @@ const routes: Routes = [
   { path: 'admissions', component: AdmissionsComponent },
   { path: 'admission', component: AdmissionComponent },
   { path: 'admission/:id', component: AdmissionComponent },
-  { path: 'faq', component: FaqComponent },
+  { path: 'freq', component: FaqComponent },
   { path: 'studies', component: StudiesComponent },
+  { path: 'news', component: NewsComponent },
 ];
 
 @NgModule({
