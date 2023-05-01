@@ -12,6 +12,7 @@ import { AdmissionComponent } from './admission/admission.component';
 import { FaqComponent } from './faq/faq.component';
 import { StudiesComponent } from './studies/studies.component';
 import { NewsComponent } from './news/news.component';
+import { EventsComponent } from './events/events.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'freq', component: FaqComponent },
   { path: 'studies', component: StudiesComponent },
   { path: 'news', component: NewsComponent },
+  { path: 'events', component: EventsComponent },
 ];
 
 @NgModule({

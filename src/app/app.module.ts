@@ -22,6 +22,7 @@ import { AdmissionComponent } from './admission/admission.component';
 import { FaqComponent } from './faq/faq.component';
 import { StudiesComponent } from './studies/studies.component';
 import { NewsComponent } from './news/news.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { NewsComponent } from './news/news.component';
     FaqComponent,
     StudiesComponent,
     NewsComponent,
+    EventsComponent,
   ],
   imports: [
     BrowserModule,

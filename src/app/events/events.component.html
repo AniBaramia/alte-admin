@@ -1,33 +1,47 @@
 <p>News</p>
-<div class="add" (click)="addOnClick()"><button>Add New News</button></div>
+<div class="add" (click)="addOnClick()"><button>Add New Event</button></div>
 
 <form #popup="ngForm" *ngIf="popupVisibility">
   <div class="container">
-    <div class="ttl">Add New News</div>
+    <div class="ttl">Add New Event</div>
     <input
       name="title"
       type="text"
       placeholder="Title"
-      [(ngModel)]="news.title"
+      [(ngModel)]="event.title"
     />
     <input
       name="img"
       type="text"
       placeholder="Image Url"
-      [(ngModel)]="news.img"
+      [(ngModel)]="event.img"
     />
     <input
-      name="date"
+      name="startdate"
       type="date"
-      placeholder="Date"
-      [(ngModel)]="news.date"
+      placeholder="Start Date"
+      [(ngModel)]="event.startdate" 
+      
+    />
+    <input
+    name="startdate"
+    type="date"
+    placeholder="Start Date"
+    [(ngModel)]="event.enddate" 
+    
+  />
+    <input
+      name="time"
+      type="time"
+      placeholder="time"
+      [(ngModel)]="event.time" 
       
     />
     <input
     name="Description"
     type="text"
     placeholder="Description"
-    [(ngModel)]="news.description"
+    [(ngModel)]="event.description"
   />
     <div class="editor">
       <ngx-editor-menu [editor]="editor" [toolbar]="toolbar"> </ngx-editor-menu>
@@ -53,28 +67,29 @@
       <tr>
         <th>Title</th>
         <th>Img</th>
-        <th>Date</th>
+        <th>Date & Time </th>
         <th>Description</th>
         <th>edit</th>
       </tr>
     </thead>
-    <tbody class="member" *ngFor="let news of newses">
+    <tbody class="member" *ngFor="let event of events">
       <tr>
-        <td>{{ news.title }}</td>
-        <td><img src="{{ news.img }}" /></td>
-        <td>{{ news.date }}</td>
-        <td>{{ news.description }}</td>
+        <td>{{ event.title }}</td>
+        <td><img src="{{ event.img }}" /></td>
+        <td>{{ event.startdate}} {{ event.enddate}} | {{ event.time}}</td>
+        <td>{{ event.description }}</td>
         <td>
           <img
             src="https://cdn-icons-png.flaticon.com/512/5773/5773168.png"
-            class="removebtn" (click)="removeOnClick(news.id!)"
+            class="removebtn" (click)="removeOnClick(event.id!)"
           />
           <img
             src="https://cdn-icons-png.flaticon.com/512/1160/1160515.png"
-            class="editbtn" (click)="editOnClick(news)"
+            class="editbtn" (click)="editOnClick(event)"
           />
         </td>
       </tr>
     </tbody>
   </table>
 </div>
+

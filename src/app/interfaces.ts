@@ -1,3 +1,5 @@
+import { Time } from "@angular/common";
+
 export interface Member {
   id?: number;
   img?: string;
@@ -51,3 +53,13 @@ export interface News {
   content?:string;
 }
 
+export interface Events {
+  id?:number;
+  img?:string;
+  title?:string;
+  startdate?:Date;
+  enddate?:Date;
+  time?:Time;
+  description?:string;
+  content?:string;
+}
