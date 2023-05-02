@@ -67,7 +67,7 @@ export class EventsComponent implements OnInit {
 
   getAllEvents() {
     this.httpClient
-      .get<Events[]>('http://localhost:3000/events?_sort=date&_order=desc')
+      .get<Events[]>('http://localhost:3000/events?_sort=startdate&_order=desc')
       .subscribe((response) => {
         this.events = response;
       });
