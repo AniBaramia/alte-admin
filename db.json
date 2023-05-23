@@ -662,6 +662,27 @@
       "url": "/studies",
       "type": "bachelor",
       "id": 9
+    },
+    {
+      "name": "Business Administration Program (MBA)",
+      "url": "/studies",
+      "type": "master",
+      "img": "https://i.ibb.co/XtJCg2B/business.png",
+      "id": 10
+    },
+    {
+      "img": "https://i.ibb.co/B3F8Fw7/law.png",
+      "name": "Law (MA)",
+      "url": "/studies",
+      "type": "master",
+      "id": 11
+    },
+    {
+      "img": "https://i.ibb.co/Hx46TcJ/logo.png",
+      "name": "National And International Security",
+      "url": "/studies",
+      "type": "master",
+      "id": 12
     }
   ],
   "faq": [
@@ -1672,7 +1693,7 @@
     },
     {
       "title": "Introduction To Electronics",
-      "startdate": "2023-04-06",
+      "startdate": "2023-08-06",
       "description": "The IT School of Alte University will hold the training \"Introduction to Electronics\".",
       "img": "https://i.ibb.co/wLXvLF5/n6.jpg",
       "content": "<p><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">The IT School of Alte University will hold the training \"Introduction to Electronics\".</span></span></p><p style=\"text-align:start\"></p><p style=\"text-align:start\"><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">In the framework of the training, students of classes X, XI, and XII will get acquainted with the principles of operation of a microcontroller, the basics of electronics, and the principles of operation of electronic devices.</span></span></p><p style=\"text-align:start\"></p><p style=\"text-align:start\"><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">Participants will create electrical circuits for devices based on the Arduino Uno microcontroller, write program codes, and create small projects by using them.</span></span></p><p style=\"text-align:start\"></p><p style=\"text-align:start\"><span style=\"color:rgb(20, 65, 71);\"><span style=\"background-color:rgb(255, 255, 255);\">Register at the</span></span><a href=\"https://forms.office.com/pages/responsepage.aspx?id=mXx1gcqE8Ui4kVed91pA_Imu6LkC6ilFltreV1lwD9dUNzJBSjA4V1oyM0hCUU5RU1pFV1pNV0JGUC4u&amp;fbclid=IwAR3i7nLrAUPZfntQT8UwlBidUhHekcpSI99Y32ZWkfMJOaew97Dw7k1FvJY\" target=\"_blank\"><span style=\"color:rgb(235, 94, 81) !important;\"><span style=\"background-color:rgb(255, 255, 255);\"> link</span></span></a><span style=\"background-color:rgb(255, 255, 255);\"> to participate.</span></p>",
